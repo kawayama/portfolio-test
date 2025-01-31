@@ -9,7 +9,6 @@ import RelatedArticles from "./RelatedArticles"
 interface TechnologyDetailProps {
   id: string
   name: string
-  category: string
   description: string
   overview: string
   experience: {
@@ -25,7 +24,6 @@ interface TechnologyDetailProps {
 export default function TechnologyDetail({
   id,
   name,
-  category,
   description,
   overview,
   experience,

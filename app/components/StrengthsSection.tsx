@@ -1,3 +1,5 @@
+import { Code as CodeIcon, Users as UsersIcon, Lightbulb as LightbulbIcon } from "lucide-react"
+
 export default function StrengthsSection() {
   return (
     <section className="py-20 px-6 bg-white/90">

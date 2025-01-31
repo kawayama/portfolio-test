@@ -19,7 +19,6 @@ const getTechnologyId = (techName: string) => {
 export function TechnologyButton({ name, href }: TechnologyButtonProps) {
   const techId = getTechnologyId(name)
   const Icon = techId ? getTechnologyIcon(techId) : null
-  const Component = href ? Link : 'div'
 
   return techId ? (
     <Button
