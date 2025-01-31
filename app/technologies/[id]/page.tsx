@@ -9,13 +9,7 @@ export async function generateStaticParams() {
   }))
 }
 
-interface TechnologyPageProps {
-  params: {
-    id: string
-  }
-}
-
-export default function TechnologyPage({ params }: TechnologyPageProps) {
+export default function TechnologyPage({ params }: { params: { id: string } }) {
   const technology = technologiesData.technologies.find(
     (tech) => tech.id === params.id
   )
@@ -28,13 +22,17 @@ export default function TechnologyPage({ params }: TechnologyPageProps) {
     project.details.technologies.includes(technology.name)
   )
 
-  return (
-    <div className="max-w-4xl mx-auto py-12 px-6">
-      <TechnologyDetail
-        {...technology}
-        {...technology.details}
-        projects={relatedProjects}
-      />
-    </div>
-  )
+  // 必要なすべてのプロパティが存在することを確認
+  const technologyDetails = {
+    id: technology.id,
+    name: technology.name,
+    description: technology.description,
+    overview: technology.details.overview,
+    experience: technology.details.experience,
+    strengths: technology.details.strengths,
+    relatedTechnologies: technology.details.relatedTechnologies,
+    projects: relatedProjects
+  }
+
+  return <TechnologyDetail {...technologyDetails} />
 } 
