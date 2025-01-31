@@ -4,7 +4,14 @@ import technologiesData from '@/data/technologies.json'
 import projectsData from '@/data/projects.json'
 
 export async function generateStaticParams() {
-  return technologiesData.technologies.map((tech) => ({
+  const validTechnologies = technologiesData.technologies.filter(tech => 
+    tech.details?.overview && 
+    tech.details?.experience &&
+    tech.details?.strengths &&
+    tech.details?.relatedTechnologies
+  )
+  
+  return validTechnologies.map((tech) => ({
     id: tech.id,
   }))
 }
@@ -14,25 +21,32 @@ export default function TechnologyPage({ params }: { params: { id: string } }) {
     (tech) => tech.id === params.id
   )
 
-  if (!technology) {
+  if (!technology || !technology.details) {
     notFound()
   }
 
   const relatedProjects = projectsData.projects.filter((project) =>
     project.details.technologies.includes(technology.name)
-  )
+  ) || []
 
-  // 必要なすべてのプロパティが存在することを確認
   const technologyDetails = {
-    id: technology.id,
-    name: technology.name,
-    description: technology.description,
-    overview: technology.details.overview,
-    experience: technology.details.experience,
-    strengths: technology.details.strengths,
-    relatedTechnologies: technology.details.relatedTechnologies,
+    id: technology.id || '',
+    name: technology.name || '',
+    description: technology.description || '',
+    overview: technology.details.overview || '',
+    experience: technology.details.experience || {
+      level: 0,
+      years: 0,
+      description: ''
+    },
+    strengths: technology.details.strengths || [],
+    relatedTechnologies: technology.details.relatedTechnologies || [],
     projects: relatedProjects
   }
 
-  return <TechnologyDetail {...technologyDetails} />
+  return (
+    <div className="min-h-screen">
+      <TechnologyDetail {...technologyDetails} />
+    </div>
+  )
 } 
