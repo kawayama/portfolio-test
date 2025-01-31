@@ -38,7 +38,7 @@ export default function TechnologyDetail({
   return (
     <div className="max-w-4xl mx-auto py-12 px-4">
       <div className="flex items-center gap-4 mb-8">
-        <Icon className="w-12 h-12" />
+        {Icon && <Icon className="w-12 h-12" />}
         <div>
           <h1 className="text-3xl font-bold">{name}</h1>
           <p className="text-gray-600">{description}</p>
