@@ -1,0 +1,28 @@
+{
+  "articles": [
+    {
+      "title": "Next.js 14でのApp RouterとServer Componentsの活用",
+      "date": "2024-03-15",
+      "platform": "Qiita",
+      "url": "https://qiita.com/yourusername/items/xxxxx",
+      "description": "Next.js 14の新機能であるApp RouterとServer Componentsの実践的な使用方法について解説します。",
+      "technologies": ["nextjs", "react", "typescript"]
+    },
+    {
+      "title": "TypeScriptとZodで実現する型安全なAPIの開発",
+      "date": "2024-02-28",
+      "platform": "Zenn",
+      "url": "https://zenn.dev/yourusername/articles/xxxxx",
+      "description": "TypeScriptとZodを組み合わせた、型安全なAPI開発のベストプラクティスを紹介します。",
+      "technologies": ["typescript", "nodejs", "api"]
+    },
+    {
+      "title": "マイクロサービスアーキテクチャの実践的な導入事例",
+      "date": "2024-02-10",
+      "platform": "note",
+      "url": "https://note.com/yourusername/n/xxxxx",
+      "description": "モノリシックなアプリケーションからマイクロサービスへの移行経験を共有します。",
+      "technologies": ["docker", "kubernetes", "aws"]
+    }
+  ]
+} 

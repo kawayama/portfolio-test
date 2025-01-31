@@ -1,0 +1,134 @@
+{
+  "projects": [
+    {
+      "title": "ECサイト",
+      "description": "React と Node.js を使用した完全な機能を備えたECプラットフォーム",
+      "link": "/projects/ec-site",
+      "details": {
+        "overview": "React と Node.js を使用して構築された完全な機能を備えたECプラットフォームです。ユーザー認証、商品一覧、カート機能、決済処理など、オンラインショッピングに必要な全ての機能を実装しています。",
+        "features": [
+          "商品の検索・フィルタリング機能",
+          "ショッピングカート機能",
+          "セキュアな決済システム",
+          "在庫管理システム"
+        ],
+        "technologies": [
+          "React",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "Redux",
+          "Stripe API"
+        ],
+        "architecture": "このプロジェクトはMERNスタック（MongoDB, Express, React, Node.js）を採用しています。フロントエンドはReactで構築され、状態管理にReduxを使用しています。バックエンドはExpress.jsで構築され、データベースにはMongoDBを使用しています。決済処理にはStripe APIを統合しています。",
+        "challenges": [
+          "大量の商品データを効率的に管理し、高速に検索・フィルタリングする機能の実装",
+          "セキュアな決済処理システムの構築とStripe APIの統合",
+          "ユーザー認証とセッション管理の実装",
+          "複雑な状態管理を効率的に行うためのReduxアーキテクチャの設計"
+        ],
+        "improvements": [
+          "商品レコメンデーション機能の追加",
+          "パフォーマンス最適化（画像の遅延読み込み、サーバーサイドレンダリングの導入）",
+          "在庫管理システムの強化",
+          "多言語対応の実装"
+        ],
+        "screenshots": [
+          "https://placehold.co/800x450/e2e8f0/1e293b?text=Product+List",
+          "https://placehold.co/800x450/e2e8f0/1e293b?text=Product+Detail",
+          "https://placehold.co/800x450/e2e8f0/1e293b?text=Shopping+Cart",
+          "https://placehold.co/800x450/e2e8f0/1e293b?text=Checkout"
+        ],
+        "imageUrl": "https://placehold.co/1200x630/e2e8f0/1e293b?text=EC+Site",
+        "githubUrl": "https://github.com/yourusername/ec-site",
+        "demoUrl": "https://ec-site-demo.example.com"
+      }
+    },
+    {
+      "title": "タスク管理アプリ",
+      "description": "Next.js と TypeScript で構築された効率的なタスク管理ツール",
+      "link": "/projects/task-management",
+      "details": {
+        "overview": "Next.js と TypeScript で構築された効率的なタスク管理ツールです。ユーザーはタスクの作成、編集、削除、優先順位付け、締め切り設定などを行うことができます。",
+        "features": [
+          "ドラッグ＆ドロップでのタスク整理",
+          "プロジェクト管理機能",
+          "締め切り通知機能",
+          "チーム共有機能"
+        ],
+        "technologies": [
+          "Next.js",
+          "TypeScript",
+          "Prisma",
+          "PostgreSQL",
+          "Tailwind CSS"
+        ],
+        "architecture": "このプロジェクトはNext.jsをフレームワークとして使用し、TypeScriptで実装されています。データベースにはPostgreSQLを使用し、Prisma ORMを通じてデータアクセスを行っています。UIはTailwind CSSでスタイリングされています。",
+        "challenges": [
+          "TypeScriptを使用した型安全な開発環境の構築",
+          "Next.jsのサーバーサイドレンダリングとクライアントサイドレンダリングの適切な使い分け",
+          "Prismaを使用したデータベース操作の最適化",
+          "ドラッグアンドドロップによるタスクの並び替え機能の実装"
+        ],
+        "improvements": [
+          "チーム機能の追加（タスクの共有、割り当て）",
+          "タスクの繰り返し設定機能の実装",
+          "タスクの進捗状況の可視化（ガントチャートなど）",
+          "モバイルアプリ版の開発（React Nativeを使用）"
+        ],
+        "screenshots": [
+          "https://placehold.co/800x450/e2e8f0/1e293b?text=Task+List",
+          "https://placehold.co/800x450/e2e8f0/1e293b?text=Task+Detail",
+          "https://placehold.co/800x450/e2e8f0/1e293b?text=Create+Task",
+          "https://placehold.co/800x450/e2e8f0/1e293b?text=Calendar+View"
+        ],
+        "imageUrl": "https://placehold.co/1200x630/e2e8f0/1e293b?text=Task+Management+App",
+        "githubUrl": "https://github.com/yourusername/task-management",
+        "demoUrl": "https://task-management-demo.vercel.app"
+      }
+    },
+    {
+      "title": "天気予報アプリ",
+      "description": "リアルタイムの天気データを提供する React Native モバイルアプリ",
+      "link": "/projects/weather-app",
+      "details": {
+        "overview": "位置情報に基づいてリアルタイムの天気情報を提供するモバイルアプリです。現在地の天気情報や7日間の予報、気象警報など、包括的な気象情報を提供します。",
+        "features": [
+          "現在地の天気情報表示",
+          "7日間の天気予報",
+          "気象警報通知",
+          "複数地点の天気管理"
+        ],
+        "technologies": [
+          "React Native",
+          "Expo",
+          "OpenWeather API",
+          "Redux Toolkit",
+          "TypeScript"
+        ],
+        "architecture": "React NativeとExpoを使用したクロスプラットフォームモバイルアプリケーションです。状態管理にRedux Toolkitを採用し、OpenWeather APIから天気データを取得しています。",
+        "challenges": [
+          "位置情報サービスとの連携",
+          "リアルタイムの天気データ更新の実装",
+          "オフライン対応とデータのキャッシュ管理",
+          "複数のプラットフォームでの一貫した体験の提供"
+        ],
+        "improvements": [
+          "詳細な気象データの表示（湿度、気圧など）",
+          "天気予報の精度向上",
+          "カスタマイズ可能なウィジェット",
+          "気象レーダー機能の追加"
+        ],
+        "screenshots": [
+          "https://placehold.co/800x450/e2e8f0/1e293b?text=Current+Weather",
+          "https://placehold.co/800x450/e2e8f0/1e293b?text=Weekly+Forecast",
+          "https://placehold.co/800x450/e2e8f0/1e293b?text=Weather+Alerts",
+          "https://placehold.co/800x450/e2e8f0/1e293b?text=Location+Management"
+        ],
+        "imageUrl": "https://placehold.co/1200x630/e2e8f0/1e293b?text=Weather+App",
+        "githubUrl": "https://github.com/yourusername/weather-app",
+        "demoUrl": "https://weather-app-demo.example.com"
+      }
+    }
+  ]
+} 

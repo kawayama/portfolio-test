@@ -1,0 +1,439 @@
+{
+  "technologies": [
+    {
+      "id": "react",
+      "name": "React",
+      "icon": "react",
+      "category": "フロントエンド",
+      "description": "Reactは、Facebookが開発したユーザーインターフェース構築のためのJavaScriptライブラリです。",
+      "proficiency": 85,
+      "experience": [
+        "コンポーネント設計とステート管理",
+        "カスタムフックの開発",
+        "パフォーマンス最適化"
+      ],
+      "details": {
+        "overview": "コンポーネントベースのアーキテクチャとVirtual DOMにより、効率的なUI開発を可能にします。豊富なエコシステムと大きなコミュニティを持ち、モダンなWeb開発に不可欠なツールとなっています。",
+        "experience": {
+          "level": 6,
+          "years": 3,
+          "description": "業務での実践的な経験があり、複雑なアプリケーションの設計と実装が可能です。パフォーマンス最適化やベストプラクティスに関する深い理解があります。"
+        },
+        "strengths": [
+          "コンポーネントの再利用性を考慮した設計",
+          "Hooksを活用した効率的な状態管理",
+          "パフォーマンス最適化テクニック",
+          "サードパーティライブラリの統合"
+        ],
+        "relatedTechnologies": [
+          "Redux",
+          "React Router",
+          "React Query"
+        ]
+      }
+    },
+    {
+      "id": "nextjs",
+      "name": "Next.js",
+      "icon": "nextjs",
+      "category": "フロントエンド",
+      "description": "Next.jsは、Reactベースのフルスタックフレームワークで、SSRやSSGなどの機能を提供します。",
+      "proficiency": 90,
+      "experience": [
+        "大規模ECサイトのフロントエンド開発",
+        "App RouterとServer Componentsの実装",
+        "パフォーマンス最適化とSEO対策"
+      ],
+      "details": {
+        "overview": "ファイルシステムベースのルーティング、ビルトインの最適化、APIルートなど、モダンなWeb開発に必要な機能を統合しています。",
+        "experience": {
+          "level": 4,
+          "years": 2,
+          "description": "複数のプロジェクトでの実務経験があり、SSR/SSGの適切な使い分けやパフォーマンス最適化の知識があります。"
+        },
+        "strengths": [
+          "App RouterとServer Componentsの活用",
+          "効率的なデータフェッチング戦略",
+          "最適化されたビルド設定",
+          "APIルートの実装"
+        ],
+        "relatedTechnologies": [
+          "React",
+          "TypeScript",
+          "Vercel"
+        ]
+      }
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "icon": "typescript",
+      "category": "フロントエンド",
+      "description": "TypeScriptは、JavaScriptに静的型付けを追加したプログラミング言語です。",
+      "proficiency": 80,
+      "experience": [
+        "型安全なアプリケーション開発",
+        "カスタム型定義の作成",
+        "ジェネリクスの活用"
+      ],
+      "details": {
+        "overview": "型安全性とコード補完により、開発効率と信頼性を向上させます。大規模なアプリケーション開発に特に有効です。",
+        "experience": {
+          "level": 4,
+          "years": 2,
+          "description": "型システムを活用した堅牢なアプリケーション開発の経験があります。ジェネリクスや高度な型機能も理解しています。"
+        },
+        "strengths": [
+          "型安全性を活用したバグの早期発見",
+          "インターフェースと型定義の設計",
+          "ジェネリクスの活用",
+          "型推論の最適化"
+        ],
+        "relatedTechnologies": [
+          "React",
+          "Next.js",
+          "Node.js"
+        ]
+      }
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js",
+      "icon": "nodejs",
+      "category": "バックエンド",
+      "description": "Node.jsは、ChromeのV8 JavaScriptエンジンで動作するサーバーサイドプラットフォームです。",
+      "details": {
+        "overview": "非同期I/Oとイベント駆動型アーキテクチャにより、高いスケーラビリティを実現します。",
+        "experience": {
+          "level": 3,
+          "years": 2,
+          "description": "RESTful APIの開発やマイクロサービスの実装経験があります。非同期処理の最適化も理解しています。"
+        },
+        "strengths": [
+          "非同期処理の効率的な実装",
+          "RESTful APIの設計と実装",
+          "ストリーム処理の活用",
+          "パフォーマンスチューニング"
+        ],
+        "relatedTechnologies": [
+          "Express",
+          "MongoDB",
+          "TypeScript"
+        ]
+      }
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "icon": "python",
+      "category": "バックエンド",
+      "description": "Pythonは、シンプルで読みやすい構文を持つ汎用プログラミング言語です。",
+      "details": {
+        "overview": "データサイエンスからWeb開発まで、幅広い用途に使用できる柔軟性を持っています。",
+        "experience": {
+          "level": 3,
+          "years": 2,
+          "description": "Webアプリケーション開発とデータ処理の経験があります。主要なライブラリやフレームワークも使いこなせます。"
+        },
+        "strengths": [
+          "データ処理と分析",
+          "スクリプト自動化",
+          "APIサーバーの構築",
+          "テスト駆動開発"
+        ],
+        "relatedTechnologies": [
+          "Django",
+          "FastAPI",
+          "Pandas"
+        ]
+      }
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "icon": "postgresql",
+      "category": "データベース",
+      "description": "PostgreSQLは、高度な機能を持つオープンソースのリレーショナルデータベースです。",
+      "details": {
+        "overview": "堅牢性と拡張性を備え、複雑なデータ構造や高度なクエリをサポートします。",
+        "experience": {
+          "level": 3,
+          "years": 2,
+          "description": "スキーマ設計からパフォーマンスチューニングまで、実践的な経験があります。"
+        },
+        "strengths": [
+          "効率的なスキーマ設計",
+          "複雑なクエリの最適化",
+          "トランザクション管理",
+          "バックアップと復旧"
+        ],
+        "relatedTechnologies": [
+          "Prisma",
+          "TypeORM",
+          "SQL"
+        ]
+      }
+    },
+    {
+      "id": "tailwindcss",
+      "name": "Tailwind CSS",
+      "icon": "tailwindcss",
+      "category": "フロントエンド",
+      "description": "Tailwind CSSは、ユーティリティファーストのCSSフレームワークです。",
+      "details": {
+        "overview": "カスタマイズ可能なユーティリティクラスを提供し、効率的なスタイリングを実現します。",
+        "experience": {
+          "level": 4,
+          "years": 2,
+          "description": "複数のプロジェクトで活用し、カスタマイズやコンポーネント設計の経験が豊富です。"
+        },
+        "strengths": [
+          "効率的なスタイリングワークフロー",
+          "カスタムデザインシステムの構築",
+          "レスポンシブデザインの実装",
+          "パフォーマンス最適化"
+        ],
+        "relatedTechnologies": [
+          "React",
+          "Next.js",
+          "PostCSS"
+        ]
+      }
+    },
+    {
+      "id": "express",
+      "name": "Express",
+      "icon": "express",
+      "category": "バックエンド",
+      "description": "Expressは、Node.js用の高速で最小限のWebアプリケーションフレームワークです。",
+      "details": {
+        "overview": "柔軟なルーティングとミドルウェアシステムにより、効率的なAPIサーバーの構築が可能です。",
+        "experience": {
+          "level": 3,
+          "years": 2,
+          "description": "RESTful APIの設計と実装、認証システムの構築など、実践的な経験があります。"
+        },
+        "strengths": [
+          "効率的なルーティング設計",
+          "カスタムミドルウェアの実装",
+          "エラーハンドリング",
+          "セキュリティ対策"
+        ],
+        "relatedTechnologies": [
+          "Node.js",
+          "MongoDB",
+          "JWT"
+        ]
+      }
+    },
+    {
+      "id": "django",
+      "name": "Django",
+      "icon": "django",
+      "category": "バックエンド",
+      "description": "Djangoは、Pythonの高機能Webフレームワークです。",
+      "details": {
+        "overview": "管理画面やORM、認証システムなど、フル機能のWebアプリケーション開発に必要な機能を提供します。",
+        "experience": {
+          "level": 3,
+          "years": 2,
+          "description": "モデル設計からデプロイメントまで、本番環境での開発経験があります。"
+        },
+        "strengths": [
+          "モデル駆動開発",
+          "管理画面のカスタマイズ",
+          "セキュリティ対策",
+          "データベース最適化"
+        ],
+        "relatedTechnologies": [
+          "Python",
+          "PostgreSQL",
+          "DRF"
+        ]
+      }
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "icon": "mongodb",
+      "category": "データベース",
+      "description": "MongoDBは、スケーラブルなドキュメント指向データベースです。",
+      "details": {
+        "overview": "柔軟なスキーマと高いスケーラビリティにより、大規模アプリケーションに適しています。",
+        "experience": {
+          "level": 3,
+          "years": 2,
+          "description": "データモデリングからシャーディング設定まで、実践的な経験があります。"
+        },
+        "strengths": [
+          "効率的なデータモデリング",
+          "クエリ最適化",
+          "インデックス設計",
+          "レプリケーション管理"
+        ],
+        "relatedTechnologies": [
+          "Mongoose",
+          "Node.js",
+          "Express"
+        ]
+      }
+    },
+    {
+      "id": "redis",
+      "name": "Redis",
+      "icon": "redis",
+      "category": "データベース",
+      "description": "Redisは、高性能なインメモリデータストアです。",
+      "details": {
+        "overview": "キャッシュやセッション管理、リアルタイムアプリケーションのデータ処理に最適です。",
+        "experience": {
+          "level": 3,
+          "years": 1,
+          "description": "キャッシュ戦略の設計や実装、パフォーマンス最適化の経験があります。"
+        },
+        "strengths": [
+          "キャッシュ戦略の設計",
+          "セッション管理",
+          "パブリッシュ/サブスクライブ",
+          "データ構造の最適化"
+        ],
+        "relatedTechnologies": [
+          "Node.js",
+          "Python",
+          "WebSocket"
+        ]
+      }
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "icon": "git",
+      "category": "その他",
+      "description": "Gitは、分散型バージョン管理システムです。",
+      "details": {
+        "overview": "効率的なブランチ管理とバージョン管理により、チーム開発を円滑にします。",
+        "experience": {
+          "level": 4,
+          "years": 3,
+          "description": "複雑なマージ戦略やGitフローの設計、チーム開発での実践経験があります。"
+        },
+        "strengths": [
+          "ブランチ戦略の設計",
+          "コンフリクト解決",
+          "リベース操作",
+          "Git Flow管理"
+        ],
+        "relatedTechnologies": [
+          "GitHub",
+          "GitLab",
+          "GitHub Actions"
+        ]
+      }
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "icon": "docker",
+      "category": "その他",
+      "description": "Dockerは、アプリケーションのコンテナ化を実現するプラットフォームです。",
+      "details": {
+        "overview": "一貫した開発・実行環境を提供し、デプロイメントを簡素化します。",
+        "experience": {
+          "level": 3,
+          "years": 2,
+          "description": "マルチコンテナアプリケーションの設計と運用、CI/CDパイプラインの構築経験があります。"
+        },
+        "strengths": [
+          "効率的なDockerfile設計",
+          "マルチステージビルド",
+          "コンテナオーケストレーション",
+          "開発環境の標準化"
+        ],
+        "relatedTechnologies": [
+          "Kubernetes",
+          "Docker Compose",
+          "CI/CD"
+        ]
+      }
+    },
+    {
+      "id": "cicd",
+      "name": "CI/CD",
+      "icon": "github-actions",
+      "category": "その他",
+      "description": "CI/CDは、継続的インテグレーションと継続的デリバリーを実現する開発プラクティスです。",
+      "details": {
+        "overview": "自動化されたビルド、テスト、デプロイメントにより、開発効率と品質を向上させます。",
+        "experience": {
+          "level": 3,
+          "years": 2,
+          "description": "GitHub ActionsやJenkinsを使用したCI/CDパイプラインの設計と実装経験があります。"
+        },
+        "strengths": [
+          "パイプライン設計",
+          "自動テスト構築",
+          "デプロイ自動化",
+          "モニタリング設定"
+        ],
+        "relatedTechnologies": [
+          "GitHub Actions",
+          "Docker",
+          "Jest"
+        ]
+      }
+    },
+    {
+      "id": "aws",
+      "name": "AWS",
+      "icon": "aws",
+      "category": "その他",
+      "description": "Amazon Web Servicesは、包括的なクラウドコンピューティングプラットフォームです。",
+      "details": {
+        "overview": "スケーラブルなインフラストラクチャとマネージドサービスを提供し、モダンなクラウドアプリケーションの構築を可能にします。",
+        "experience": {
+          "level": 3,
+          "years": 2,
+          "description": "本番環境のインフラ設計と運用、サーバーレスアプリケーションの開発経験があります。"
+        },
+        "strengths": [
+          "サーバーレスアーキテクチャ設計",
+          "コンテナオーケストレーション",
+          "インフラのコード化",
+          "セキュリティ設定"
+        ],
+        "relatedTechnologies": [
+          "Lambda",
+          "ECS",
+          "S3",
+          "CloudFormation"
+        ]
+      }
+    },
+    {
+      "id": "github-actions",
+      "name": "GitHub Actions",
+      "icon": "github-actions",
+      "category": "その他",
+      "description": "GitHub Actionsは、GitHubに統合されたCI/CDプラットフォームです。",
+      "details": {
+        "overview": "コードリポジトリと密接に統合され、自動化されたビルド、テスト、デプロイメントワークフローを提供します。",
+        "experience": {
+          "level": 4,
+          "years": 2,
+          "description": "複雑なCI/CDパイプラインの設計と実装、マルチ環境デプロイメントの経験があります。"
+        },
+        "strengths": [
+          "カスタムワークフローの設計",
+          "マトリックスビルド",
+          "シークレット管理",
+          "環境分離"
+        ],
+        "relatedTechnologies": [
+          "Docker",
+          "AWS",
+          "Jest"
+        ]
+      }
+    }
+  ]
+} 

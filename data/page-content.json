@@ -1,0 +1,23 @@
+{
+  "hero": {
+    "title": "ようこそ",
+    "subtitle": "私のポートフォリオへ"
+  },
+  "skills": [
+    {
+      "category": "フロントエンド",
+      "items": ["React", "Next.js", "TypeScript"]
+    },
+    {
+      "category": "バックエンド",
+      "items": ["Node.js", "Express", "PostgreSQL"]
+    }
+  ],
+  "contact": {
+    "email": "contact@example.com",
+    "social": {
+      "github": "https://github.com/yourusername",
+      "linkedin": "https://linkedin.com/in/yourusername"
+    }
+  }
+} 
